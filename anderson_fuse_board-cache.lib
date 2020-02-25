@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Homebrew_Anderson_two_redblack
+#
+DEF Homebrew_Anderson_two_redblack J 0 40 Y Y 1 F N
+F0 "J" 0 -150 60 H V C CNN
+F1 "Homebrew_Anderson_two_redblack" 0 150 60 H V C CNN
+F2 "" -50 -150 60 H I C CNN
+F3 "" -50 -150 60 H I C CNN
+DRAW
+T 0 0 -50 60 0 0 0 BLACK Normal 0 C C
+T 0 -50 50 60 0 0 0 RED Normal 0 C C
+S -150 100 150 -100 0 1 0 N
+X ~ 1 -350 50 200 R 50 50 1 1 B
+X ~ 2 -350 -50 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Homebrew_HOLE
+#
+DEF Homebrew_HOLE H 0 40 Y Y 1 F N
+F0 "H" 0 -130 60 H V C CNN
+F1 "Homebrew_HOLE" 0 120 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 81 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Homebrew_POWER_FUSE
+#
+DEF Homebrew_POWER_FUSE F 0 40 Y Y 1 L N
+F0 "F" -400 100 50 H V L BNN
+F1 "Homebrew_POWER_FUSE" 200 100 50 H V L BNN
+F2 "FUSE_5MM" 30 150 20 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ *FUSE_5MM*
+$ENDFPLIST
+DRAW
+A -100 0 100 -1799 -1 1 1 0 N -200 0 0 0
+A 100 0 100 1 1799 1 1 0 N 200 0 0 0
+X IN 1 -400 0 200 R 40 40 1 1 W
+X OUT 2 400 0 200 L 40 40 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
