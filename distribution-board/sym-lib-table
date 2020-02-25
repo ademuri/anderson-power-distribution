@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name homebrew)(type Legacy)(uri /home/adam/hardware/kicad/homebrew/homebrew.lib)(options "")(descr ""))
+)
