@@ -1,3 +1,5 @@
-# Anderson fuse board
+# Anderson power distribution
 
-For use with the [Anderson 45-amp vertical board-to-wire connectors](https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/PP1545/b02021s.pdf).
+This is PCB designs for power distribution boards that use Anderson power pole connectors.
+
+See the board-to-wire connector [drawings](https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/PP1545/b02021s.pdf). These designs use the `1335G1` (straight) and `1336G1` (right-angle) parts.
