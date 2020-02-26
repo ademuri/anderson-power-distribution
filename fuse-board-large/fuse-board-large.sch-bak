@@ -1,0 +1,410 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Homebrew:POWER_FUSE F1
+U 1 1 5CD4A729
+P 3350 2600
+F 0 "F1" H 3350 2865 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 2774 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 2750 20  0001 C CNN
+F 3 "" H 3350 2600 60  0000 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J2
+U 1 1 5CD4AC45
+P 4750 2650
+F 0 "J2" H 4928 2708 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 2602 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 2500 60  0001 C CNN
+F 3 "" H 4700 2500 60  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2600 4400 2600
+Wire Wire Line
+	4350 1950 4350 2700
+Wire Wire Line
+	4350 2700 4400 2700
+$Comp
+L Homebrew:POWER_FUSE F2
+U 1 1 5CD4BB7F
+P 3350 3000
+F 0 "F2" H 3350 3265 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 3174 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 3150 20  0001 C CNN
+F 3 "" H 3350 3000 60  0000 C CNN
+	1    3350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J3
+U 1 1 5CD4BE86
+P 4750 3050
+F 0 "J3" H 4928 3108 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 3002 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 2900 60  0001 C CNN
+F 3 "" H 4700 2900 60  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2600 2950 3000
+Wire Wire Line
+	4350 2700 4350 3100
+Wire Wire Line
+	4350 3100 4400 3100
+Connection ~ 4350 2700
+Wire Wire Line
+	3750 3000 4400 3000
+$Comp
+L Homebrew:POWER_FUSE F3
+U 1 1 5CD4C703
+P 3350 3400
+F 0 "F3" H 3350 3665 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 3574 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 3550 20  0001 C CNN
+F 3 "" H 3350 3400 60  0000 C CNN
+	1    3350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:POWER_FUSE F4
+U 1 1 5CD4CE76
+P 3350 3800
+F 0 "F4" H 3350 4065 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 3974 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 3950 20  0001 C CNN
+F 3 "" H 3350 3800 60  0000 C CNN
+	1    3350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J4
+U 1 1 5CD4D259
+P 4750 3450
+F 0 "J4" H 4928 3508 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 3402 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 3300 60  0001 C CNN
+F 3 "" H 4700 3300 60  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J5
+U 1 1 5CD4D6BF
+P 4750 3850
+F 0 "J5" H 4928 3908 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 3802 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 3700 60  0001 C CNN
+F 3 "" H 4700 3700 60  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3400 4400 3400
+Wire Wire Line
+	3750 3800 4400 3800
+Wire Wire Line
+	2950 3000 2950 3400
+Connection ~ 2950 3000
+Wire Wire Line
+	2950 3400 2950 3800
+Connection ~ 2950 3400
+Wire Wire Line
+	4350 3100 4350 3500
+Wire Wire Line
+	4350 3500 4400 3500
+Connection ~ 4350 3100
+Wire Wire Line
+	4350 3500 4350 3900
+Wire Wire Line
+	4350 3900 4400 3900
+Connection ~ 4350 3500
+$Comp
+L Homebrew:HOLE H1
+U 1 1 5CD388ED
+P 750 6900
+F 0 "H1" H 859 6953 60  0000 L CNN
+F 1 "HOLE" H 859 6847 60  0000 L CNN
+F 2 "homebrew:HOLE_M4" H 750 6900 60  0001 C CNN
+F 3 "" H 750 6900 60  0001 C CNN
+	1    750  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:HOLE H2
+U 1 1 5CD39232
+P 1250 6900
+F 0 "H2" H 1359 6953 60  0000 L CNN
+F 1 "HOLE" H 1359 6847 60  0000 L CNN
+F 2 "homebrew:HOLE_M4" H 1250 6900 60  0001 C CNN
+F 3 "" H 1250 6900 60  0001 C CNN
+	1    1250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:HOLE H3
+U 1 1 5CD393CF
+P 1750 6900
+F 0 "H3" H 1859 6953 60  0000 L CNN
+F 1 "HOLE" H 1859 6847 60  0000 L CNN
+F 2 "homebrew:HOLE_M4" H 1750 6900 60  0001 C CNN
+F 3 "" H 1750 6900 60  0001 C CNN
+	1    1750 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:HOLE H4
+U 1 1 5CD39ABD
+P 2250 6900
+F 0 "H4" H 2359 6953 60  0000 L CNN
+F 1 "HOLE" H 2359 6847 60  0000 L CNN
+F 2 "homebrew:HOLE_M4" H 2250 6900 60  0001 C CNN
+F 3 "" H 2250 6900 60  0001 C CNN
+	1    2250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J1
+U 1 1 5CD4A100
+P 1200 2000
+F 0 "J1" H 1092 1713 60  0000 C CNN
+F 1 "Anderson_two_redblack" H 1092 1819 60  0000 C CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 1150 1850 60  0001 C CNN
+F 3 "" H 1150 1850 60  0001 C CNN
+	1    1200 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E5606E9
+P 2150 2100
+F 0 "F?" H 2150 2365 50  0000 C CNN
+F 1 "POWER_FUSE" H 2150 2274 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 2180 2250 20  0001 C CNN
+F 3 "" H 2150 2100 60  0000 C CNN
+	1    2150 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 1950 4350 1950
+Wire Wire Line
+	1550 2050 1700 2050
+Wire Wire Line
+	1700 2050 1700 2100
+Wire Wire Line
+	1700 2100 1750 2100
+Wire Wire Line
+	2550 2100 2950 2100
+Wire Wire Line
+	2950 2100 2950 2600
+Connection ~ 2950 2600
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E56C90A
+P 3350 4200
+F 0 "F?" H 3350 4465 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 4374 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 4350 20  0001 C CNN
+F 3 "" H 3350 4200 60  0000 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E56C914
+P 4750 4250
+F 0 "J?" H 4928 4308 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 4202 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 4100 60  0001 C CNN
+F 3 "" H 4700 4100 60  0001 C CNN
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4200 4400 4200
+Wire Wire Line
+	4350 4300 4400 4300
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E56C921
+P 3350 4600
+F 0 "F?" H 3350 4865 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 4774 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 4750 20  0001 C CNN
+F 3 "" H 3350 4600 60  0000 C CNN
+	1    3350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E56C92B
+P 4750 4650
+F 0 "J?" H 4928 4708 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 4602 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 4500 60  0001 C CNN
+F 3 "" H 4700 4500 60  0001 C CNN
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4200 2950 4600
+Wire Wire Line
+	4350 4700 4400 4700
+Wire Wire Line
+	3750 4600 4400 4600
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E56C93A
+P 3350 5000
+F 0 "F?" H 3350 5265 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 5174 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 5150 20  0001 C CNN
+F 3 "" H 3350 5000 60  0000 C CNN
+	1    3350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E56C944
+P 3350 5400
+F 0 "F?" H 3350 5665 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 5574 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 5550 20  0001 C CNN
+F 3 "" H 3350 5400 60  0000 C CNN
+	1    3350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E56C94E
+P 4750 5050
+F 0 "J?" H 4928 5108 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 5002 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 4900 60  0001 C CNN
+F 3 "" H 4700 4900 60  0001 C CNN
+	1    4750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E56C958
+P 4750 5450
+F 0 "J?" H 4928 5508 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 5402 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 5300 60  0001 C CNN
+F 3 "" H 4700 5300 60  0001 C CNN
+	1    4750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5000 4400 5000
+Wire Wire Line
+	3750 5400 4400 5400
+Wire Wire Line
+	2950 4600 2950 5000
+Connection ~ 2950 4600
+Wire Wire Line
+	2950 5000 2950 5400
+Connection ~ 2950 5000
+Wire Wire Line
+	4350 4700 4350 5100
+Wire Wire Line
+	4350 5100 4400 5100
+Connection ~ 4350 4700
+Wire Wire Line
+	4350 5100 4350 5500
+Wire Wire Line
+	4350 5500 4400 5500
+Connection ~ 4350 5100
+Wire Wire Line
+	2950 4200 2950 3800
+Connection ~ 2950 4200
+Connection ~ 2950 3800
+Wire Wire Line
+	4350 3900 4350 4300
+Connection ~ 4350 3900
+Connection ~ 4350 4300
+Wire Wire Line
+	4350 4300 4350 4700
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E5751D4
+P 3350 5800
+F 0 "F?" H 3350 6065 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 5974 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 5950 20  0001 C CNN
+F 3 "" H 3350 5800 60  0000 C CNN
+	1    3350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:POWER_FUSE F?
+U 1 1 5E5751DE
+P 3350 6200
+F 0 "F?" H 3350 6465 50  0000 C CNN
+F 1 "POWER_FUSE" H 3350 6374 50  0000 C CNN
+F 2 "homebrew:FUSEHOLDER_ATC_Bk-6010" H 3380 6350 20  0001 C CNN
+F 3 "" H 3350 6200 60  0000 C CNN
+	1    3350 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E5751E8
+P 4750 5850
+F 0 "J?" H 4928 5908 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 5802 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 5700 60  0001 C CNN
+F 3 "" H 4700 5700 60  0001 C CNN
+	1    4750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Homebrew:Anderson_two_redblack J?
+U 1 1 5E5751F2
+P 4750 6250
+F 0 "J?" H 4928 6308 60  0000 L CNN
+F 1 "Anderson_two_redblack" H 4928 6202 60  0000 L CNN
+F 2 "homebrew:Anderson_1337G3_straight_two" H 4700 6100 60  0001 C CNN
+F 3 "" H 4700 6100 60  0001 C CNN
+	1    4750 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5800 4400 5800
+Wire Wire Line
+	3750 6200 4400 6200
+Wire Wire Line
+	2950 5400 2950 5800
+Wire Wire Line
+	2950 5800 2950 6200
+Connection ~ 2950 5800
+Wire Wire Line
+	4350 5500 4350 5900
+Wire Wire Line
+	4350 5900 4400 5900
+Wire Wire Line
+	4350 5900 4350 6300
+Wire Wire Line
+	4350 6300 4400 6300
+Connection ~ 4350 5900
+Connection ~ 2950 5400
+Connection ~ 4350 5500
+$EndSCHEMATC
