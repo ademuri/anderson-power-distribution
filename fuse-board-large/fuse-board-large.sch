@@ -186,7 +186,7 @@ U 1 1 5CD4A100
 P 1200 2000
 F 0 "J1" H 1092 1713 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 1092 1819 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_right_angle_bottom_two" H 1150 1850 60  0001 C CNN
+F 2 "homebrew:Anderson_1336G1_right_angle_bottom_two" H 1150 1850 60  0001 C CNN
 F 3 "" H 1150 1850 60  0001 C CNN
 	1    1200 2000
 	-1   0    0    1   
