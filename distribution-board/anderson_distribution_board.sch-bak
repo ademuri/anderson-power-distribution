@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:anderson_distribution_board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 7874 5906
 encoding utf-8
@@ -31,7 +30,7 @@ U 1 1 5B2336FF
 P 2800 1750
 F 0 "J2" H 2800 1600 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 2800 1900 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_straight_two" H 2750 1600 60  0001 C CNN
+F 2 "homebrew:Anderson_1335G1_straight_two" H 2750 1600 60  0001 C CNN
 F 3 "" H 2750 1600 60  0001 C CNN
 	1    2800 1750
 	1    0    0    -1  
@@ -42,7 +41,7 @@ U 1 1 5B2337AB
 P 2800 2200
 F 0 "J3" H 2800 2050 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 2800 2350 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_straight_two" H 2750 2050 60  0001 C CNN
+F 2 "homebrew:Anderson_1335G1_straight_two" H 2750 2050 60  0001 C CNN
 F 3 "" H 2750 2050 60  0001 C CNN
 	1    2800 2200
 	1    0    0    -1  
@@ -53,7 +52,7 @@ U 1 1 5B2337D4
 P 2800 3000
 F 0 "J5" H 2800 2850 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 2800 3150 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_straight_two" H 2750 2850 60  0001 C CNN
+F 2 "homebrew:Anderson_1335G1_straight_two" H 2750 2850 60  0001 C CNN
 F 3 "" H 2750 2850 60  0001 C CNN
 	1    2800 3000
 	1    0    0    -1  
@@ -86,7 +85,7 @@ U 1 1 5B2338F7
 P 2800 2600
 F 0 "J4" H 2800 2450 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 2800 2750 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_straight_two" H 2750 2450 60  0001 C CNN
+F 2 "homebrew:Anderson_1335G1_straight_two" H 2750 2450 60  0001 C CNN
 F 3 "" H 2750 2450 60  0001 C CNN
 	1    2800 2600
 	1    0    0    -1  

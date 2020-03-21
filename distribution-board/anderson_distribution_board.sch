@@ -19,7 +19,7 @@ U 1 1 5B233648
 P 1550 1650
 F 0 "J1" H 1550 1500 60  0000 C CNN
 F 1 "Anderson_two_redblack" H 1550 1800 60  0000 C CNN
-F 2 "homebrew:Anderson_1337G3_right_angle_bottom_two" H 1500 1500 60  0001 C CNN
+F 2 "homebrew:Anderson_1336G1_right_angle_bottom_two" H 1500 1500 60  0001 C CNN
 F 3 "" H 1500 1500 60  0001 C CNN
 	1    1550 1650
 	-1   0    0    1   
